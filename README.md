@@ -12,9 +12,15 @@ Before you begin, ensure you have the following installed:
 * Maven 
 * Your favorite IDE with Lombok plugin installed (e.g., IntelliJ IDEA, Eclipse)
 * Postman application to make request
+* Database if required of your choice . 
+  Note - H2 database is already being used in Project . But you can configure it to use your personal database .
 
 ### Steps to Setup
-* Open the file named Traini8 in your preferred IDE 
+* Download the project file from this repository using git clone .
+  '''
+  git clone https://github.com/manishkanyal/Backend_Traini8_ManishKanyal.git
+  '''
+* Go to  Backend_Traini8_ManishKanyal and open the file named Traini8 in your preferred IDE 
 * Reload the maven project , to fetch the dependency declared in pom.xml file
 * If you have your own database , open application.properties file in `src/main/resources/application.properties` and change the configuration related to database . Below are properties provided that need to be changed in case another database is used
 ```

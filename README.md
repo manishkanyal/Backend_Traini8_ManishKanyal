@@ -17,9 +17,9 @@ Before you begin, ensure you have the following installed:
 
 ### Steps to Setup
 * Download the project file from this repository using git clone .
-  '''
+  ```
   git clone https://github.com/manishkanyal/Backend_Traini8_ManishKanyal.git
-  '''
+  ```
 * Go to  Backend_Traini8_ManishKanyal and open the file named Traini8 in your preferred IDE 
 * Reload the maven project , to fetch the dependency declared in pom.xml file
 * If you have your own database , open application.properties file in `src/main/resources/application.properties` and change the configuration related to database . Below are properties provided that need to be changed in case another database is used
